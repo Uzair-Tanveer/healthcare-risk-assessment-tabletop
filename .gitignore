@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment files
+.env
+
+# Keys and secrets
+*.key
+*.pem
+secrets.txt
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
