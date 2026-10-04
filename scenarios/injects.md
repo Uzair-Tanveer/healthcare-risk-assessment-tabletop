@@ -1,122 +1,61 @@
-\# Tabletop Exercise Injects
+# Tabletop Exercise Injects
 
-
-
-\## Inject 1
-
+## Inject 1
 A receptionist reports that a workstation is showing unusual file names and a ransom note.
 
-
-
-\### Goal
-
+### Goal
 Test initial reporting and escalation.
 
-
-
-\## Inject 2
-
+## Inject 2
 Several shared files become inaccessible for multiple departments.
 
-
-
-\### Goal
-
+### Goal
 Test whether the event is treated as isolated or widespread.
 
-
-
-\## Inject 3
-
+## Inject 3
 The EHR login page is unavailable or users are unable to authenticate.
 
-
-
-\### Goal
-
+### Goal
 Test clinical continuity and identity dependency.
 
-
-
-\## Inject 4
-
+## Inject 4
 A clinician asks how to document patient care manually.
 
-
-
-\### Goal
-
+### Goal
 Test downtime procedures.
 
-
-
-\## Inject 5
-
+## Inject 5
 A vendor representative says they are investigating whether their platform is affected.
 
-
-
-\### Goal
-
+### Goal
 Test third-party coordination.
 
-
-
-\## Inject 6
-
+## Inject 6
 Leadership asks whether patient data may have been accessed.
 
-
-
-\### Goal
-
+### Goal
 Test privacy and legal thinking.
 
-
-
-\## Inject 7
-
+## Inject 7
 A local news outlet emails the clinic asking for comment.
 
-
-
-\### Goal
-
+### Goal
 Test communications and escalation handling.
 
-
-
-\## Inject 8
-
+## Inject 8
 Backups exist, but the most recent restore test was months ago.
 
-
-
-\### Goal
-
+### Goal
 Test recovery confidence and decision-making.
 
-
-
-\## Inject 9
-
+## Inject 9
 Staff ask whether they should power down machines or keep them on.
 
-
-
-\### Goal
-
+### Goal
 Test containment guidance.
 
-
-
-\## Inject 10
-
+## Inject 10
 The clinic is behind on billing and cannot access some records.
 
-
-
-\### Goal
-
+### Goal
 Test business impact prioritization.
-

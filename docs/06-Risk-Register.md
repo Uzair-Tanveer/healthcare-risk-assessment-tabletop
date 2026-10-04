@@ -1,52 +1,26 @@
-\# 06. Risk Register
+# 06. Risk Register
 
-
-
-\## Risk Scoring Approach
-
+## Risk Scoring Approach
 Likelihood and impact are scored on a 1–5 scale:
-
-\- 1 = Low
-
-\- 2 = Minor
-
-\- 3 = Moderate
-
-\- 4 = High
-
-\- 5 = Severe
-
-
+- 1 = Low
+- 2 = Minor
+- 3 = Moderate
+- 4 = High
+- 5 = Severe
 
 Inherent risk is the product of likelihood × impact.
 
-
-
-\## Risk Register
-
-
+## Risk Register
 
 | Risk ID | Asset | Threat | Vulnerability | Likelihood | Impact | Inherent Risk | Existing Controls | Residual Risk | Recommended Treatment | Owner | Target Date | Framework Mapping | Evidence Required |
-
 |---|---|---|---|---:|---:|---:|---|---:|---|---|---|---|---|
-
 | R-01 | Email/M365 | Phishing leading to account compromise | Incomplete MFA coverage and limited phishing resilience | 4 | 5 | 20 | Basic filtering, some MFA | 12 | Mitigate | IT/Security Lead | 90 days | NIST CSF PR.AC, DE.CM; CIS 5, 6; NIST 800-53 IA, AC | MFA status, phishing training records, alert logs |
-
 | R-02 | EHR system | Ransomware | Endpoint and backup recovery weaknesses | 4 | 5 | 20 | Endpoint protection, backups | 10 | Mitigate | IT Manager | 90 days | NIST CSF PR.IP, RC.RP; CIS 11, 10; NIST 800-53 CP, IR | Backup reports, restore tests, EDR coverage |
-
 | R-03 | Identity system | Credential theft and privilege misuse | Weak access review discipline | 3 | 5 | 15 | Central directory | 9 | Mitigate | System Admin | 120 days | NIST CSF PR.AC; CIS 5, 6; NIST 800-53 AC, IA | Access review logs, admin account list |
-
 | R-04 | Telehealth platform | Session hijacking or misuse | Inadequate control of remote access and authentication | 3 | 4 | 12 | Basic platform controls | 8 | Mitigate | Clinical Ops Manager | 180 days | NIST CSF PR.AC, PR.DS; HIPAA; NIST 800-53 AC, SC | Telehealth configuration, MFA evidence |
-
 | R-05 | Backup systems | Data loss from encrypted or inaccessible backups | Backups not sufficiently isolated or tested | 4 | 5 | 20 | Backups exist | 10 | Mitigate | IT Manager | 90 days | NIST CSF RC.RP, PR.IP; CIS 11; NIST 800-53 CP | Backup architecture, restore test results |
-
 | R-06 | Patch management | Exploitation of known vulnerabilities | Inconsistent patching timelines | 3 | 4 | 12 | Basic patching process | 8 | Mitigate | IT Support Lead | 120 days | NIST CSF PR.IP, DE.CM; CIS 7; NIST 800-53 SI, CM | Patch reports, remediation tickets |
-
 | R-07 | Vendor services | Third-party compromise | Limited vendor risk reviews | 3 | 4 | 12 | Informal vendor review | 9 | Mitigate | Compliance Manager | 180 days | NIST CSF ID.SC; ISO 27001 supplier controls; NIST 800-53 SR | Vendor inventory, questionnaires, contracts |
-
 | R-08 | Clinical operations | Downtime and care disruption | Lack of mature continuity procedures | 3 | 5 | 15 | Informal continuity planning | 10 | Mitigate | Practice Administrator | 180 days | NIST CSF RC.RP, RC.CO; NIST 800-53 CP, IR | BCP/DR plan, downtime procedures |
-
 | R-09 | Endpoints | Malware spread | Uneven endpoint hardening and user behavior | 4 | 4 | 16 | Endpoint protection | 9 | Mitigate | IT Support Lead | 90 days | NIST CSF PR.PT, DE.CM; CIS 10, 13; NIST 800-53 SI, SC | EDR coverage, device inventory |
-
 | R-10 | Patient data | Unauthorized disclosure | Weak data handling and access controls | 3 | 5 | 15 | Some access restrictions | 9 | Mitigate | Compliance Officer | 180 days | HIPAA, NIST CSF PR.DS; NIST 800-53 MP, AC | Access logs, data classification, policy docs |
-
